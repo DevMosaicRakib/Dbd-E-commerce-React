@@ -16,10 +16,10 @@ This is a dynamic and responsive e-commerce frontend built using React.js. The f
 
 - **React.js**: JavaScript library for building user interfaces
 - **Axios**: For making HTTP requests to the backend
-- **React Router**: For handling navigation
+- **React Router Dom**: For handling navigation
 - **Redux**: For managing application state (optional, depending on your setup)
 - **Styled Components/CSS Modules**: For styling components
-- **Bootstrap**: For responsive UI components (optional)
+- **Tailwind and SCSS**: For responsive UI components .
 
 ## Prerequisites
 
@@ -33,8 +33,8 @@ Make sure you have the following installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/ecommerce-frontend-react.git
-   cd ecommerce-frontend-react
+   git clone https://github.com/DevMosaicRakib/Dbd-Ecom-React.git
+   cd Dbd-Ecom-React
    ```
 
 2. **Install dependencies:**
