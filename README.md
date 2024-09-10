@@ -84,13 +84,13 @@ src/
 
 Ensure that your Django backend is running and the following API endpoints are available:
 
-| Method | Endpoint               | Description                        |
-|--------|-------------------------|------------------------------------|
-| GET    | `/api/products/`        | Fetch all products                 |
-| POST   | `/api/cart/`            | Add items to cart                  |
-| POST   | `/api/order/`           | Create a new order                 |
-| POST   | `/api/payment/bkash/`   | Initiate payment with bKash         |
-| POST   | `/api/auth/login/`      | User login                         |
+| Method | Endpoint                      | Description                        |
+|--------|-------------------------------|------------------------------------|
+| GET    | `/api/products/`              | Fetch all products                 |
+| POST   | `/api/cartitems/add_item`     | Add items to cart                  |
+| POST   | `/api/place-order/`           | Create a new order                 |
+| POST   | `/api/bkash/payment/callback/`| payment callback from bKash         |
+| POST   | `/api/user/login/`            | User login                         |
 
 ## Running Tests
 
