@@ -1,0 +1,501 @@
+@import "../../css-config/mixins.scss";
+
+.footerSection{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: white;
+    margin-top: 0;
+    @include md{
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        color: white;
+        margin-top: 40px;
+        padding: 45px 0;
+    }
+    @include lg{
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        color: white;
+        margin-top: 60px;
+        padding: 80px 0;
+    }
+    @include xl{
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        color: white;
+        margin-top: 50px;
+        padding: 30px 0;
+    }
+    @include xxl{
+        width: 100%;
+        height: 350px;
+        background-color:#000000 ;
+        color: white;
+        margin-top: 80px;
+        padding: 0;
+    }
+
+
+    .others{
+        .category{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin: 18px auto;
+            
+            @include sm{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin: 5px auto;
+            }
+            @include md{
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+                margin: 0 0 5px 0;
+            }
+            @include lg{
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+                margin: 0 0 20px 0;
+            }
+            @include xl{
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+                margin: 0 0 15px 0;
+            }
+            .title{
+                font-weight: 400;
+                font-size: 13px;
+                text-transform: capitalize;
+                margin-bottom: 5px;
+                @include sm{
+                    font-weight: 400;
+                    font-size: 13px;
+                    text-transform: capitalize;
+                    margin-bottom: 5px;
+                }
+                @include md{
+                    font-weight: 400;
+                    font-size: 13px;
+                    text-transform: capitalize;
+                    margin-bottom: 10px;
+                    
+                }
+                @include lg{
+                    font-weight: 400;
+                    font-size: 13px;
+                    text-transform: capitalize;
+                    margin-bottom: 10px;
+                    text-align: left;
+                }
+                @include xl{
+                    font-weight: 400;
+                    font-size: 13px;
+                    text-transform: capitalize;
+                    margin-bottom: 10px;
+                    text-align: left;
+                }
+            }
+            .items{
+                text-transform: capitalize;
+                align-items: center;
+                text-align: center;
+                div{
+                    margin-bottom: 5px;
+                    color: rgba(255,255,255,0.8);
+                    cursor: pointer;
+                    font-size: 14px;
+                    font-weight: 600;
+
+                }
+                @include sm{
+                    text-transform: capitalize;
+                    align-items: center;
+                    text-align: center;
+                    div{
+                        margin-bottom: 8px;
+                        color: rgba(255,255,255,0.8);
+                        cursor: pointer;
+                        font-size: 10px;
+                        font-weight: 400;
+                        &:hover{
+                            color: white;
+                        }
+                    }
+                }
+                @include md{
+                    text-transform: capitalize;
+                    align-items: start;
+                    text-align: left;
+                    div{
+                        margin-bottom: 8px;
+                        color: rgba(255,255,255,0.7);
+                        cursor: pointer;
+                        font-size: 10px;
+                        font-weight: 400;
+       
+                    }
+                }
+                @include lg{
+                    text-transform: capitalize;
+                    align-items: start;
+                    text-align: left;
+                    div{
+                        margin-bottom: 8px;
+                        color: rgba(255,255,255,0.7);
+                        cursor: pointer;
+                        font-size: 10px;
+                        font-weight: 400;
+
+                    }
+                }
+
+                @include xl{
+                    text-transform: capitalize;
+                    align-items: start;
+                    text-align: left;
+                    div{
+                        margin-bottom: 8px;
+                        color: rgba(255,255,255,0.7);
+                        cursor: pointer;
+                        font-size: 10px;
+                        font-weight: 400;
+                        &:hover{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+        .links{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-right: 25px;
+            @include sm{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin: 15px auto;
+            }
+            @include md{
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+                margin-top: 0;
+                margin-right: 0;
+                margin-left: 0;
+                padding-left: 0;
+            }
+            @include lg{
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+                margin-top: 0;
+                margin-right: 0;
+            }
+
+            @include xl{
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+                margin-top: 0;
+                margin-right: 0;
+            }
+            .title{
+                font-weight: 600;
+                font-size: 16px;
+                text-transform: capitalize;
+                margin-bottom: 5px;
+                margin-right: 14px;
+                @include sm{
+                    font-weight: 400;
+                    font-size: 13px;
+                    text-transform: capitalize;
+                    margin-bottom: 5px;
+                    margin-right: 0;
+                }
+                @include md{
+                    font-weight: 400;
+                    font-size: 13px;
+                    text-transform: capitalize;
+                    margin-bottom: 10px;
+                    margin-right: 40px;
+                }
+                @include lg{
+                    font-weight: 400;
+                    font-size: 13px;
+                    text-transform: capitalize;
+                    margin-bottom: 10px;
+                    margin-right: 0;
+                    text-align: left;
+                }
+
+                @include xl{
+                    font-weight: 400;
+                    font-size: 13px;
+                    text-transform: capitalize;
+                    margin-bottom: 10px;
+                    margin-right: 0;
+                    text-align: left;
+                }
+            }
+            .items{
+                text-transform: capitalize;
+                align-items: center;
+                text-align: start;
+                div{
+                    margin-bottom: 5px;
+                    color: rgba(255,255,255,0.8);
+                    cursor: pointer;
+                    font-size: 10px;
+                    font-weight: 400;
+                }
+                @include sm{
+                    text-transform: capitalize;
+                    align-items: center;
+                    text-align: center;
+                    div{
+                        margin-bottom: 5px;
+                        color: rgba(255,255,255,0.8);
+                        cursor: pointer;
+                        font-size: 10px;
+                        font-weight: 400;
+
+                    }
+                }
+                @include md{
+                    text-transform: capitalize;
+                    align-items: start;
+                    text-align: left;
+                    div{
+                        margin-bottom: 6px;
+                        color: rgba(255,255,255,0.7);
+                        cursor: pointer;
+                        font-size: 10px;
+                        font-weight: 400;
+
+                    }
+                }
+                @include lg{
+                    text-transform: capitalize;
+                    align-items: start;
+                    text-align: left;
+                    div{
+                        margin-bottom: 10px;
+                        color: rgba(255,255,255,0.7);
+                        cursor: pointer;
+                        font-size: 10px;
+                        font-weight: 400;
+
+                    }
+                }
+
+                @include xl{
+                    text-transform: capitalize;
+                    align-items: start;
+                    text-align: left;
+                    div{
+                        margin-bottom: 8px;
+                        color: rgba(255,255,255,0.7);
+                        cursor: pointer;
+                        font-size: 10px;
+                        font-weight: 400;
+                        &:hover{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+        .contact{
+            align-items: center;
+            margin-top: 10px;
+            margin-left: 0;
+            // margin-right: 2px;
+            @include sm{
+                align-items: center;
+                margin-top: 20px;
+                // margin-left: 120px;
+            //    text-align: center;
+            }
+            @include md{
+                align-items: start;
+                justify-content: start;
+                margin-top: 0;
+                margin-left: 0;
+                margin-right: 0;
+                margin-bottom: 34px;
+            }
+            @include lg{
+                align-items: start;
+                justify-content: start;
+                margin-top: 0;
+                margin-left: 0;
+                margin-right: 0;
+                margin-bottom: 47px;
+            }
+
+            @include xl{
+                align-items: start;
+                justify-content: start;
+                margin-top: 0;
+                margin-left: 0;
+                margin-right: 0;
+            }
+            .title{
+                font-weight: 400;
+                font-size: 13px;
+                text-transform: capitalize;
+                margin-bottom: 5px;
+                @include sm{
+                    font-weight: 400;
+                    font-size: 13px;
+                    text-transform: capitalize;
+                    margin-bottom: 5px;
+                    text-align: center;
+                }
+                @include md{
+                    font-weight: 400;
+                    font-size: 13px;
+                    text-transform: capitalize;
+                    margin-bottom: 10px;
+                    margin-right: 0;
+                    text-align: left;
+                }
+                @include lg{
+                    font-weight: 400;
+                    font-size: 13px;
+                    text-transform: capitalize;
+                    margin-bottom: 10px;
+                    margin-right: 0;
+                    text-align: left;
+                }
+
+                @include xl{
+                    font-weight: 400;
+                    font-size: 13px;
+                    text-transform: capitalize;
+                    margin-bottom: 10px;
+                    margin-right: 0;
+                    text-align: left;
+                }
+            }
+            .item{
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                color: rgba(255,255,255,0.8);
+
+                svg{
+                    flex-shrink: 0;
+                    font-size: 11px;
+                    margin-right: 3px;
+                }
+                span{
+                    display: block;
+                    cursor: pointer;
+                    font-size: 10px;
+                }
+                @include sm{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 8px;
+                    color: rgba(255,255,255,0.8);
+
+                    svg{
+                        flex-shrink: 0;
+                        font-size: 11px;
+                        margin-right: 3px;
+                    }
+                    span{
+                        display: block;
+                        cursor: pointer;
+                        font-size: 10px;
+                        font-weight: 400;
+                    }
+                }
+                @include md{
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                    margin-left: 0;
+                    margin-bottom: 8px;
+                    color: rgba(255,255,255,0.7);
+
+                    svg{
+                        flex-shrink: 0;
+                        font-size: 11px;
+                        margin-right: 6px;
+                        // margin-top: 2px;
+                    }
+                    span{
+                        display: block;
+                        // margin-bottom: 10px;
+                        cursor: pointer;
+                        font-size: 10px;
+                        font-weight: 400;
+                    }
+                }
+                @include lg{
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                    margin-left: 0;
+                    margin-bottom: 8px;
+                    color: rgba(255,255,255,0.7);
+
+                    svg{
+                        flex-shrink: 0;
+                        font-size: 11px;
+                        margin-right: 10px;
+                        // margin-top: 2px;
+                    }
+                    span{
+                        display: block;
+                        // margin-bottom: 10px;
+                        cursor: pointer;
+                        font-size: 10px;
+                        font-weight: 400;
+                    }
+                }
+
+                @include xl{
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                    margin-left: 0;
+                    margin-bottom: 8px;
+                    color: rgba(255,255,255,0.7);
+                    &:hover{
+                        color: white;
+                    }
+                    svg{
+                        flex-shrink: 0;
+                        font-size: 11px;
+                        margin-right: 10px;
+                        // margin-top: 2px;
+                    }
+                    span{
+                        display: block;
+                        // margin-bottom: 10px;
+                        cursor: pointer;
+                        font-size: 10px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+
+}
